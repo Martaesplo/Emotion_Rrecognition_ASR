@@ -1,0 +1,80 @@
+#######################
+# OVERALL METRICS     #
+#######################
+
+94/94 [==============================] - 3s 33ms/step - loss: 1.7468 - accuracy: 0.4407
+Loss of the model is -  1.746781826019287
+94/94 [==============================] - 5s 53ms/step - loss: 1.7468 - accuracy: 0.4407
+Accuracy of the model is -  44.06949579715729 %
+
+ precision    recall  f1-score   support
+
+         ANG       0.58      0.74      0.65       514
+         DIS       0.43      0.38      0.41       513
+         FEA       0.25      0.01      0.01       518
+         HAP       0.39      0.35      0.37       529
+         NEU       0.36      0.38      0.37       408
+         SAD       0.42      0.77      0.54       511
+
+    accuracy                           0.44      2993
+   macro avg       0.40      0.44      0.39      2993
+weighted avg       0.40      0.44      0.39      2993
+
+#######################
+# PER-RACE METRICS    #
+#######################
+
+CORRECT
+Caucasian: 0.3268
+Asian: 0.3639
+African American: 0.3093
+
+INCORRECT
+African American: 0.3381
+Asian: 0.3059
+Caucasian: 0.356
+
+#CAUCASIAN
+#######################
+precision    recall  f1-score   support
+
+         ANG       0.59      0.72      0.65       181
+         DIS       0.42      0.27      0.32       181
+         FEA       0.50      0.01      0.01       181
+         HAP       0.36      0.32      0.34       181
+         NEU       0.28      0.39      0.32       122
+         SAD       0.41      0.81      0.55       181
+
+    accuracy                           0.42      1027
+   macro avg       0.43      0.42      0.36      1027
+weighted avg       0.43      0.42      0.37      1027
+
+#AFRICAN AMERICAN
+#######################
+precision    recall  f1-score   support
+
+         ANG       0.59      0.72      0.65       181
+         DIS       0.42      0.27      0.32       181
+         FEA       0.50      0.01      0.01       181
+         HAP       0.36      0.32      0.34       181
+         NEU       0.28      0.39      0.32       122
+         SAD       0.41      0.81      0.55       181
+
+    accuracy                           0.42      1027
+   macro avg       0.43      0.42      0.36      1027
+weighted avg       0.43      0.42      0.37      1027
+
+#ASIAN
+#######################
+precision    recall  f1-score   support
+
+         ANG       0.59      0.72      0.65       181
+         DIS       0.42      0.27      0.32       181
+         FEA       0.50      0.01      0.01       181
+         HAP       0.36      0.32      0.34       181
+         NEU       0.28      0.39      0.32       122
+         SAD       0.41      0.81      0.55       181
+
+    accuracy                           0.42      1027
+   macro avg       0.43      0.42      0.36      1027
+weighted avg       0.43      0.42      0.37      1027
